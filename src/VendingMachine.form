@@ -35,12 +35,13 @@
         </constraints>
         <properties/>
       </component>
-      <component id="eb765" class="javax.swing.JRadioButton" binding="radioButton1" default-binding="true">
+      <component id="eb765" class="javax.swing.JRadioButton" binding="spriteNRP8000RadioButton" default-binding="true">
         <constraints>
           <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="RadioButton"/>
+          <font name="Droid Sans Mono Slashed" size="14" style="1"/>
+          <text value="Sprite NRP 80.00"/>
         </properties>
       </component>
       <component id="1d83a" class="javax.swing.JLabel">
@@ -48,87 +49,104 @@
           <grid row="3" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Label"/>
+          <font name="Droid Sans Mono Slashed" size="18" style="1"/>
+          <text value="Select An Item"/>
         </properties>
       </component>
-      <component id="c8dca" class="javax.swing.JRadioButton" binding="radioButton2" default-binding="true">
+      <component id="c8dca" class="javax.swing.JRadioButton" binding="fantaNRP5000RadioButton" default-binding="true">
         <constraints>
           <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="RadioButton"/>
+          <font name="Droid Sans Mono Slashed" size="14" style="1"/>
+          <text value="Fanta NRP 50.00"/>
         </properties>
       </component>
-      <component id="d09cd" class="javax.swing.JRadioButton" binding="radioButton3" default-binding="true">
+      <component id="d09cd" class="javax.swing.JRadioButton" binding="mountainDewNRP70RadioButton" default-binding="true">
         <constraints>
           <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="RadioButton"/>
+          <font name="Droid Sans Mono Slashed" size="14" style="1"/>
+          <text value="Mountain Dew NRP 70.00"/>
         </properties>
       </component>
-      <component id="326b" class="javax.swing.JRadioButton" binding="radioButton5" default-binding="true">
+      <component id="326b" class="javax.swing.JRadioButton" binding="redBullNRP120RadioButton" default-binding="true">
         <constraints>
           <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="RadioButton"/>
+          <font name="Droid Sans Mono Slashed" size="14" style="1"/>
+          <text value="Red Bull NRP 120.00"/>
         </properties>
       </component>
-      <component id="594f0" class="javax.swing.JRadioButton" binding="radioButton4" default-binding="true">
+      <component id="594f0" class="javax.swing.JRadioButton" binding="sliceNRP4000RadioButton" default-binding="true">
         <constraints>
           <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="RadioButton"/>
+          <font name="Droid Sans Mono Slashed" size="14" style="1"/>
+          <text value="Slice NRP 40.00"/>
         </properties>
       </component>
-      <component id="6b356" class="javax.swing.JRadioButton" binding="radioButton6" default-binding="true">
+      <component id="6b356" class="javax.swing.JRadioButton" binding="cokeNRP7000RadioButton" default-binding="true">
         <constraints>
           <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="RadioButton"/>
+          <font name="Droid Sans Mono Slashed" size="14" style="1"/>
+          <text value="Coke NRP 70.00"/>
         </properties>
       </component>
-      <component id="df9a8" class="javax.swing.JButton" binding="button1" default-binding="true">
+      <component id="df9a8" class="javax.swing.JButton" binding="purchaseButton" default-binding="true">
         <constraints>
-          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="100" height="50"/>
+          </grid>
         </constraints>
         <properties>
-          <text value="Button"/>
+          <font name="Droid Sans Mono Slashed" size="18" style="1"/>
+          <text value="Purchase"/>
         </properties>
       </component>
-      <component id="47a2d" class="javax.swing.JButton" binding="button2" default-binding="true">
+      <component id="47a2d" class="javax.swing.JButton" binding="clearButton" default-binding="true">
         <constraints>
-          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="100" height="50"/>
+          </grid>
         </constraints>
         <properties>
-          <text value="Button"/>
+          <font name="Droid Sans Mono Slashed" size="18" style="1"/>
+          <text value="Clear"/>
         </properties>
       </component>
-      <component id="8ffb1" class="javax.swing.JButton" binding="vButton" default-binding="true">
+      <component id="8ffb1" class="javax.swing.JButton" binding="exitButton" default-binding="true">
         <constraints>
-          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="100" height="50"/>
+          </grid>
         </constraints>
         <properties>
-          <text value="v"/>
+          <font name="Droid Sans Mono Slashed" size="18" style="1"/>
+          <text value="Exit"/>
         </properties>
       </component>
       <component id="30b1d" class="javax.swing.JLabel">
         <constraints>
-          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Label"/>
+          <font name="Droid Sans Mono Slashed" size="18"/>
+          <text value="Insert Money"/>
         </properties>
       </component>
       <component id="c8d41" class="javax.swing.JLabel">
         <constraints>
-          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Label"/>
+          <font name="Droid Sans Mono Slashed" size="18"/>
+          <text value="Change"/>
         </properties>
       </component>
     </children>
